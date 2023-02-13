@@ -234,3 +234,47 @@ IF stop THEN
 		END_IF
 ```
 the above code executes when stop condition is true.
+
+<H1>Communication Setup between TwinCAT and Visual Studio </H1>
+
+<b>ADS:</b> The Automation Device Specification (ADS) is the communication protocol of TwinCAT. It enables the data exchange and the control of TwinCAT systems. ADS is media-independent and can communicate via serial or network connections.
+
+ADS enables:
+
+▪ access to the process image
+
+▪ consistent data exchange
+
+▪ access to I/O tasks
+
+▪ detection of status changes
+
+▪ read-out of the PLC symbol informationn
+
+▪ access by variable name
+
+▪ sum commands
+
+▪ synchronous and asynchronous access
+
+<b>Intallation </b>
+
+1. Go to <b>Tools</b> >> <b>NuGet Package Manager</b> >> Manage NuGet Packages for Solution<b> 
+
+2. Browse a Pckage called "Beckhoff.Twincat.ADS".
+
+3. Install this package.
+
+4. Use the command
+
+	```using (AdsClient client = new AdsClient())
+               {
+                client.Connect(AmsNetId.Local, 851);
+		}```
+		
+   For setting communication between local PLC port and Visual Studio.
+   
+5. First, local PLC created in Twincat always goes to port "851'
+   
+6. If we create second PLC in our Twincat Project its going to be port "852" and so on.
+
