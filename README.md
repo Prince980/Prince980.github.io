@@ -259,7 +259,7 @@ ADS enables:
 
 <b>Intallation </b>
 
-1. Go to <b>Tools</b> >> <b>NuGet Package Manager</b> >> Manage NuGet Packages for Solution<b> 
+1. Go to <b>Tools</b> >> <b>NuGet Package Manager</b> >> <b>Manage NuGet Packages for Solution</b> 
 
 2. Browse a Pckage called "Beckhoff.Twincat.ADS".
 
