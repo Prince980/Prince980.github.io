@@ -267,10 +267,12 @@ ADS enables:
 
 4. Use the command
 
-	```using (AdsClient client = new AdsClient())
+	```
+	using (AdsClient client = new AdsClient())
                {
                 client.Connect(AmsNetId.Local, 851);
-		}```
+		}
+	```
 		
    For setting communication between local PLC port and Visual Studio.
    
