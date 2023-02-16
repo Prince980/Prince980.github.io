@@ -58,7 +58,7 @@ Arrays in TwinCAT:
 
 ![image](https://user-images.githubusercontent.com/59726765/216984668-f0170cfe-a0e1-46b0-9e5e-a3a6e9a5c172.png)
 
-<h1>TwinCAT program to Start and Stop motor axis Using ST</h1>
+<h1>TwinCAT program to Start and Stop motor axis Using Switch Case in ST</h1>
 
 MAIN (PRG):
 ```python
