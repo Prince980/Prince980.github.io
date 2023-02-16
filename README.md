@@ -280,3 +280,7 @@ ADS enables:
    
 6. If we create second PLC in our Twincat Project its going to be port "852" and so on.
 
+<b>Note.</b> when you start a new project in Visual Studio, it is typically a separate and isolated environment from your previous projects. This means that any packages or dependencies that were installed for previous projects may not automatically be available for new projects.
+
+If you need to use the same package in a new project, you will need to install it again in the new project. This is because the package needs to be registered with the new project and its dependencies may be different from your previous project. Additionally, installing the package again in the new project ensures that you are using the correct and up-to-date version of the package for your new project.
+
